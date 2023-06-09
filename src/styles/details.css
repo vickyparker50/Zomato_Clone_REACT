@@ -1,0 +1,172 @@
+#bodybox{
+    top: 132px;
+    left: 113px;
+    width: 1130px;
+    height: 400px;
+    margin-left: 173px;
+    margin-top: 38px;
+    border-radius: 0%;
+    
+}
+
+#resname{
+    width: 322px;
+    height: 43px;
+    margin-left: 181px;
+    text-align: left;
+    font: normal normal 600 30px/46px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    margin-top: 10px;
+}
+
+#plsbut{
+width: 223px;
+height: 50px;
+/* UI Properties */
+background: #CE0505 0% 0% no-repeat padding-box;
+border-radius: 6px;
+font: normal normal medium 18px/27px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+border-color: #CE0505;
+margin-left: 1071px;
+    margin-top: 33px;
+
+}
+
+#pills-home-tab{
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    color: #192F60;
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    margin-left: 168px;
+    border-radius: 0%;
+}
+
+#pills-contact-tab{
+    background: #FBFBFB 0% 0% no-repeat padding-box;
+    color: #192F60;
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    margin-left: 51px;
+    border-radius: 0%;
+}
+.nav-link.active {
+    border-bottom: 4px solid red;
+  }
+
+  #underlinehr{
+    border: 2px solid #D2D9E6;
+opacity: 1;
+margin-top: -19px;
+margin-left: 173px;
+margin-right: 210px;
+  }
+#abtps{
+    width: 186px;
+    height: 31px;
+    text-align: left;
+    font: normal normal 600 22px/33px Poppins;
+    letter-spacing: inherit;
+    color: #192F60;
+    opacity: 1;
+    margin-left: 174px;
+    margin-top: 44px;
+}
+.resdetials{
+    margin-left: 175px;
+}
+
+
+.conhead{
+    width: 220px;
+    height: 25px;
+    text-align: left;
+    font: normal normal 600 18px/27px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    margin-top: 31px;
+}
+
+.conview{
+    width: 243px;
+height: 30px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+.conview02{
+    width: 243px;
+height: 30px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 16px/30px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+color: red;
+}
+
+#clickgally{
+    margin-left: -290px;
+    width: 242px;
+    height: 48px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 0.8;
+    text-align: center;
+    font: normal normal 600 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    position: absolute;
+    margin-top: 370px;
+    
+}
+.bannerImg {
+    width: auto;
+    height: 33rem;
+}
+
+#paynowwww{
+    margin-left: 589px;
+    margin-top: -57px;
+}
+
+.item-total{
+    margin-top: 21px;
+    margin-bottom: 5px;
+    text-align: left;
+font: normal normal bold 22px/33px Poppins;
+letter-spacing: 0px;
+color: #292C40;
+opacity: 1;
+}
+
+.add-button {
+    position: absolute;
+    margin-top: -1rem;
+    left: 87%;
+}
+.add-number {
+    position: absolute;
+    margin-top: -1rem;
+    left: 87%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+.qty {
+    background-color: white;
+    width: 18px;
+    display: inline-block;
+    padding: 2px 0px 0px 6px;
+}

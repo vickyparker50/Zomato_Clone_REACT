@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    box-sizing:border-box;
+    font-family:Poppins ;
+}
+.bg-image{
+    background-image: url("../../public/img/wallpaper.png");
+    background-position: center;
+    background-size: cover;
+    height: 480px;
+    box-shadow: 0 10px 20px #9D0E0E00 inset, 0 1px 200px #9D0E0E00 inset, 0px 10px 200px #000 inset, 0 0 150px #4F0707 inset;
+}
+.login, .createacct{
+    text-decoration: none;
+    color: white;
+}
+.login:hover, .createacct:hover{
+    color: white;
+    opacity: 0.8;
+}
+
+.logo-qs{
+    color: #EB2929;
+    background-color: white;
+    font-size: 70px;
+    display: inline;
+    border-radius: 50%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+}
+.createacct{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+.restaurant-title{
+    font: normal normal 600 36px/55px Poppins;
+    color: white;
+    opacity: 1;
+    letter-spacing: 0px;
+    text-align: center;
+}
+.loactiondropdown{
+    font: normal normal normal 15px/23px Poppins;
+    color: #636F88;
+    text-align: left;
+    opacity: 1;
+    letter-spacing: 0;
+    border-color: white;
+    top: 439px;
+    left: 612px;
+    width: 245px;
+    height: 45px;
+    margin-left: -20px;
+}
+.mainLoginInput{
+    font: normal normal normal 15px/23px Poppins;
+    color: #636F88;
+    text-align: center;
+    opacity: 1;
+    letter-spacing: 0;
+    border-color: white;
+    width: 477px;
+    height: 45px;
+   }
+.input-group{
+    left: 21px;
+}
+.Quick{
+    color: #192F60;
+    font: normal normal bold 30px/46px Poppins;
+
+}
+.Discover{
+    color: #8C96AB;
+    font: normal normal normal 18px/27px Poppins;
+}
+.Breakfast{
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #192F60;
+    opacity: 1;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 7px;
+    margin-left: -17px;
+    
+}
+.prodetail{
+    text-align: left;
+    font: normal normal normal 14px/21px Poppins;
+    letter-spacing: 0px;
+    color: #8C96AB;
+    opacity: 1;
+    margin-top: 15px;
+    margin-left: -16px;
+    margin-right: -20px;
+}
+.product{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+    display: flex;
+    width: 301px;
+    height: 149px;
+    
+}
+#proimg{
+    width: 130px;
+    height: 149px;
+    border-radius: 0;
+    position: inherit;
+    left: -12px;
+    margin-left: -13px;
+}
+    
+
+
+.resbox{
+    margin-left: 59px;
+}
+
+#qukie{
+    margin-left: 166px;
+}
+#sugeslist{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 3px 0px 7px 0px;
+    width: 29.6rem;
+    margin: 45.5px 0 0 0;
+}
+
+#sugimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: initial;
+    margin: 7px 18px 0px -26px
+}
+#suglist{
+    text-align:start;
+    margin-bottom: 4px;
+}
+#sugname{
+   color: #192F60;
+   font-weight: 700;
+}
+#suglocality{
+    color: #636F88;
+    font-size: 13px;
+    display: block;
+    margin: -14px 0px 8px 33px;
+}
+#notfound{
+    color: #e90a0a;
+    list-style: none;
+    font-weight: bold;
+    margin: 4px;
+    text-align: start;
+}
+
+@media screen and (max-width: 600px){
+.loactiondropdown{
+
+    margin-top: 7px;
+}
+.restaurant-title{
+    margin: -17px;
+}
+#serid{
+    width: 87%;
+    margin-top: 28px;
+}
+.logo-qs{
+    width: 0px;
+    font-size: 46px
+}
+#qukie{
+    margin-left: -17px;
+}
+#gidc{
+    margin-left: 1px;
+    text-align: center;
+}
+#cid{
+    margin-left: 56px;
+}
+#sugeslist{
+    width: 23.8rem;
+}
+
+}

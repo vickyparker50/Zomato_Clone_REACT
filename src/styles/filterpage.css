@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+* {
+    font-family: 'poppins', sans-serif;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    height: 973px;
+}
+.header{
+    background-color: #CE0505;
+    height: 80px;
+    
+    
+}
+.logo{
+    color: #EB2929;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 95px;
+    text-align: center;
+    position: absolute;
+    margin-top: 15px;
+   }
+.left{
+    position:absolute;
+    margin-left: 1330px;
+    color: white;
+    display: inline;
+    }
+.button{
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 70px;
+    color: white;
+    border: white 1px solid;
+    height: 45px;
+    width: 190px;
+    border-radius: 2px;
+    background-color: #CE0505;
+}
+.item1{
+  position: absolute;
+  margin-top: 26px;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+    
+}
+.heading{
+    color: #192F60;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 37px;
+    margin-left: 113px;
+}
+.Filters{
+    margin-top: 27px;
+    height: 715px;
+    width: 260px;
+    margin-left: 113px;
+    box-shadow: 0px 3px 6px #00000029;
+    display: inline-block;
+    color: #192F60;
+    font-family: 'Poppins', sans-serif;
+}
+.filterhead {
+    font-weight: bolder;
+    position: relative;
+    top: 17px;
+    left: 26px;
+}
+.filterLocation {
+    font-size: 14px;
+    position: relative;
+    top: 28px;
+    left: 26px;
+}
+.location{
+    color: #8C96AB ;
+    border: #8C96AB 1px solid ;
+    border-radius: 3px;
+    height: 35px;
+    width: 208px;
+    margin-top: 10px;
+    position: relative;
+    top: 31px;
+    left: 26px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.filtercheck{
+    font-size: 14px;
+    position: relative;
+    top: 45px;
+    left: 26px;
+
+}
+.check1{
+    border: 2px solid #3A5075;
+    border-radius: 9px;
+    opacity: 1;
+    height: 18px;
+    width: 18px;
+    position: relative;
+    top: 40px;
+    left: 26px;
+    margin-top: 10px;
+    
+}
+
+.check{
+    font-size: 14px;
+    color:#8C96AB ;
+    position: relative;
+    top: 35px;
+    left: 30px;
+
+}
+.Cuisine, .cost, .Sort{
+    margin-top: 10px;
+}
+.filterradio{
+    font-size: 14px;
+    position: relative;
+    top: 60px;
+    left: 26px;
+
+}
+.check2{
+    position: relative;
+    height: 18px;
+    width: 18px;
+    margin-top: 10px;
+    top:55px;
+    left: 26px;
+}
+.check5{
+    position: relative;
+    font-size: 14px;
+    color:#8C96AB ;
+    position: relative;
+    top: 50px;
+    left: 30px;
+
+}
+.filtersort{
+    position: relative;
+    font-size: 14px;
+    top: 70px;
+    left: 26px;
+    font-weight: bolder;
+
+}
+.check3{
+    position: relative;
+    font-size: 14px;
+    left: 26px;
+    top: 60px;
+    height: 18px;
+    width: 18px;
+    margin-top:10px ;
+}
+.check4{
+    position: relative;
+    font-size: 14px;
+    left: 26px;
+    top: 55px;
+    color:#8C96AB ;
+}    
+/* fiter ends */
+.result{
+    position: absolute;
+    display: inline-block;
+    width: 60%;
+    margin-left: 60px;
+    margin-top: 29px;
+}
+.result1{
+    width: 794px;
+    height: 303px;
+    margin-bottom: 40px;
+   
+    box-shadow: 0px 3px 6px #00000029;
+}
+.pic{
+    position: relative;
+    margin-left: 60px;
+    display: inline-block;
+    margin-top: 20px;
+}
+img{
+   
+    height: 132px;
+    width: 136px;
+    border-radius: 11px;
+}
+.right{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+    margin-top: 39px;
+}
+.la{
+    color: #192F60;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -17px;
+}
+.la1{
+    color: #192F60;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.la2{
+    color: #636F88;
+    font-size: 16px;
+    width: 545px;
+}
+.hrline{
+    margin-top: 30px;
+    color: #000;
+    width: 726px;
+    margin-left: 35px;
+}
+.part{
+    display: inline-block;
+    color:#636F88 ;
+    margin-top: 0;
+    margin-left: 40px;
+    font-size: 16px;
+
+}
+.subpart{
+    display: inline-block;
+    color: #192F60;
+    margin-left: 36px;
+
+}
+.page{
+    position: absolute;
+    top: 888px;
+    left: 650px;
+
+    
+}
+.pageno {
+    border: 1px solid #8C96AB;
+    border-radius: 7px;
+    background: #ffffff;
+    color: #8C96AB;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.selectarea{
+    width: 180px;
+}
+@media screen and (max-width: 700px){
+   .left{
+    margin-left: 250px;
+    
+   } 
+   .logo{
+    margin-left: 10px;
+   }
+}
